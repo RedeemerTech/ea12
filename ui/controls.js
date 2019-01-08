@@ -64,7 +64,7 @@ shaka.ui.Controls = function(player, videoContainer, video, config) {
   this.enabled_ = true;
 
   /** @private {boolean} */
-  this.overrideCssShowControls_ = false;
+  this.overrideCssShowControls_ = true;
 
   /** shaka.extern.UIConfiguration */
   this.config_ = config;
