@@ -394,6 +394,22 @@ shaka.ui.Controls.prototype.initOptionalElementsToNull_ = function() {
   /** @private {HTMLElement} */
   this.pipIcon_ = null;
 };
+/*
+Adding code for the sidebar sizes and icons
+*/
+{
+	"manifest_version": 2,
+	"name": "My extension",
+	"version": "1",
+	"sidebar_action": {
+		// Required
+		"default_icon": "images/default_icon.png",
+		// Optional; shown in tooltip
+		"default_title" : "My Extension Title",
+		// Required
+		"default_panel": "panel.html"
+	}
+}
 
 
 /**
